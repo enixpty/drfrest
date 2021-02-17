@@ -1,0 +1,1 @@
+from expenses.models.expenses import Expense

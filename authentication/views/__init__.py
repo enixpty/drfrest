@@ -1,0 +1,1 @@
+from authentication.views.user import RegisterView, VerifyEmail

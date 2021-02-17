@@ -1,0 +1,1 @@
+from income.models.income import Income
