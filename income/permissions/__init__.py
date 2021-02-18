@@ -1,1 +1,1 @@
-from .expenses import IsOwner
+from .income import IsOwner
