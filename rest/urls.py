@@ -21,4 +21,5 @@ urlpatterns = [
     path('auth/',include(('authentication.urls', 'auth'), namespace='auth')),
     path('expenses/',include(('expenses.urls', 'expenses'), namespace='expenses')),
     path('income/',include(('income.urls', 'income'), namespace='income')),
+    path('userstats/',include(('userstats.urls', 'userstats'), namespace='userstats')),
 ]
