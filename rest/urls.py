@@ -23,3 +23,6 @@ urlpatterns = [
     path('income/',include(('income.urls', 'income'), namespace='income')),
     path('userstats/',include(('userstats.urls', 'userstats'), namespace='userstats')),
 ]
+
+handler404 = 'utils.views.error_404'
+handler500 = 'utils.views.error_500'
